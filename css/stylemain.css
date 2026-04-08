@@ -1,0 +1,70 @@
+header{
+    background-image: url("../foto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+    height: 5hv;
+}
+nav a{
+    display: block;
+    color: #2c1e16;
+    padding: 16px 18px;
+    text-decoration: none;
+    margin
+}
+nav a:hover{
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 23vh;
+  left: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}

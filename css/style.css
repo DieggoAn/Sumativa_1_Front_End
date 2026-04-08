@@ -4,8 +4,11 @@ body{
     background-color: #F2F2F2;
 }
 header{
-    background-color: lightgrey;
-    padding: 10px;
+    background-image: url("../foto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    width: 100%;
     text-align: center;
 }
 nav{
@@ -37,4 +40,23 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555555;
+  color: white;
 }
