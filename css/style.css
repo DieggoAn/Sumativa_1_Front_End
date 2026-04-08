@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+header{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    background-color: #A67BB;
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    display: block;
+    color: #2c1e16;
+    padding: 16px 18px;
+    text-decoration: none;
+    margin
+}
+nav a:hover{
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+main{
+    margin-bottom: 50px;
+    padding: 30px 60px;
+    background-color: lightgray;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
