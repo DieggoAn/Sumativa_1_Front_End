@@ -1,29 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio</title>
-    <link rel="stylesheet" href="css/style.css">
+<html lang="es"> <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Araña Saltarina - Trydarssus nobilitatus</title>
+    <link rel="icon" type="image/png" href="img/telarana.png">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Araña saltarina</h1>
-        <p>Trydarssus nobilitatus</p>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="proyectos.html">Mis proyectos</a>
-        <a href="contacto.html">Contactame</a>
-    </nav>
-    <main>
-        <h2>Formulario de contacto</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in magni quod consequuntur soluta? Quisquam dolores maiores voluptates cumque, commodi hic eius excepturi aliquid rem nobis voluptatibus ratione nisi saepe?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id placeat in, laborum eos, officiis aliquam ducimus molestias et, ipsum aperiam cupiditate recusandae quod quidem! Suscipit magni molestiae corrupti quas mollitia.</p>
-    </main>
-    <footer>
-        <p>Mi sitio &copy;2026</p>
-    </footer>
+    <div class="top">
+        <header>
+            <h1>Araña saltarina</h1>
+            <p>Trydarssus nobilitatus</p>
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="detalles.html">Detalles</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <div class="cuerpo">
+        <aside class="sidenav">
+            <a href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i> Twitter
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+        </aside>
+
+        <div class="container">
+        <form action="action_page.php">
+
+            <h2>Para contactarnos ingrese sus datos</h2>
+            <label for="fname">Nombres</label>
+            <input type="text" id="fname" name="firstname" placeholder="Su nombre y apellido aqui...">
+
+            <label for="lname">Correo Electronico</label>
+            <input type="text" id="lname" name="lastname" placeholder="correo@ejemplo.cl">
+
+            <label for="country">Pais</label>
+            <select id="country" name="country">
+            <option value="australia">Chile</option>
+            <option value="canada">Argentina</option>
+            <option value="usa">Peru</option>
+            </select>
+
+            <label for="subject">Informacion adicional</label>
+            <textarea id="subject" name="subject" placeholder="Escriba algo aqui..." style="height:200px"></textarea>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+        </div>
+    </div>
+
+    <div class="bot">
+      <footer>
+        <p>Mi sitio &copy; 2026 - Valdivia, Chile</p>
+        <p>Hecho por Diego Andres Aguero Carreño alumno de Ingenieria en Informatica de INACAP</p>
+      </footer>
+    </div>
+
 </body>
 </html>
